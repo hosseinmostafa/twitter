@@ -1,0 +1,86 @@
+.tweet{
+    display: flex;
+    border-bottom: 1px solid #d6dce0;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+.tweet:hover {
+    transform: scale(1.1s);
+    background: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.tweet a {
+    color: #1d94e0;
+    text-decoration: none;
+}
+
+.tweet a:hover {
+    text-decoration: underline;
+}
+
+.tweet__author-logo {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet__header {
+    display: flex;
+
+}
+
+.tweet__outhor-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #14171a;
+    margin-right: 5px;
+}
+
+.tweet__author-slug {
+    color: #5b7083;
+    font-size: 15px;
+}
+
+.tweet__publish-time {
+    margin-left: 5px;
+    color: #657786;
+}
+
+.tweet__image {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.tweet__content-name input{
+    /* color: #00000073; */
+    outline: none;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.tweet__content-name a {
+    outline: none;
+    text-align: center;
+    border: 1px solid #1da0f2;
+    border-radius: 15px;
+    background-color: #1da0f2;
+    color: white;
+    transition: .5s;
+    margin-left: 150%;
+    padding: 5px 10px 5px 10px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.tweet__content-name a:hover{
+    text-decoration: none;
+}

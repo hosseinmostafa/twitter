@@ -1,0 +1,37 @@
+.layout {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.layout__right-sidebar {
+    position: fixed;
+    width: 350px;
+}
+
+.layout__right-sidebar-container .layout__right-sidebar input {
+    box-sizing: border-box;
+    background: #bfc6cf;
+    border: none;
+    width: 94%;
+    border-radius: 30px;
+    height: 40px;
+    margin: 0px 65px 9px 9px;
+    color: #585656;
+    padding: 0 0px 0 14px;
+    transition: .4s;
+    padding: 0 20px;
+}
+
+.layout__right-sidebar-container .layout__right-sidebar input:hover {
+    border: 1px solid #0000ff4a;
+    box-shadow: 0 0 3px rgba(29, 36, 129, 0.5);
+}
+
+
+
+.layout__right-sidebar-container .layout__right-sidebar input:focus{
+    outline: none;
+}
+
